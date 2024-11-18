@@ -43,7 +43,7 @@ export default function Nav() {
             
       </div>
       {isClick && (
-              <div className='md:hidden p-3 mt-2 bg-violet-600 rounded'>
+              <div className='md:hidden p-3 mt-2 bg-yellow-400 rounded'>
                 
                   <Link to='/' className='text-white block p-1 decoration-transparent '>ACCUEIL</Link>
                   <Link to='/' className='text-white block p-1 decoration-transparent '>A PROPOS NOUS</Link>

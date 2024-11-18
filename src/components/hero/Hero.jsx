@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+import './Hero.css'
 
 export default function Hero() {
   return (
   
-<div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+<div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 mt-5">
  
   <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
     <div>
@@ -11,11 +13,18 @@ export default function Hero() {
       <p class="mt-3 text-lg text-gray-800 dark:text-neutral-400">Chez DBSYS SERVICES, nous faisons de notre passion, de notre innovation, et de notre expertise les moteurs de notre engagement envers vous. Avec une approche de proximité et une recherche constante de la meilleure technologie, nous accompagnons chaque client en tant que partenaire de confiance, pour transformer leurs ambitions en réussites.</p>
 
       <div class="mt-7 grid gap-3 w-full sm:inline-flex">
-        <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-yellow-500 text-white hover:bg-yellow-600 focus:outline-none focus:bg-yellow-600 disabled:opacity-50 disabled:pointer-events-none " href="#">
-          Get started
-          <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-        </a>
         
+              <Link  to='/about'
+                className="link"
+              >
+              <button className='cta'>
+                <span>A PROPOS NOUS</span>
+                <svg width="15px" height="10px" viewBox="0 0 13 10">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </button>
+              </Link>
       </div>
       
 
