@@ -16,10 +16,10 @@ export default function Nav() {
             <div >
                 <div className='hidden md:flex  space-x-11 items-center'>
                 <Link to='/' className='text-black hover:text-orange-300 decoration-transparent'>ACCUEIL</Link>
-                <Link to='/' className='text-black hover:text-orange-300 decoration-transparent '>A PROPOS NOUS</Link>
+                <Link to='/about' className='text-black hover:text-orange-300 decoration-transparent '>A PROPOS NOUS</Link>
                 <Link to='/' className='text-black hover:text-orange-300 decoration-transparent '>NOS SOLUTIONS ET PRODUITS</Link>
                 <Link to='/' className='text-black hover:text-orange-300 decoration-transparent '>SERVICES</Link>
-                <Link to='/' className='text-black hover:text-orange-300 decoration-transparent '>CONTACT</Link>
+                <Link to='/contact' className='text-black hover:text-orange-300 decoration-transparent '>CONTACT</Link>
                 </div>
                 <div className='flex space-x-6 items-center '>
                
