@@ -1,0 +1,8 @@
+
+
+
+
+.im:hover > :not(:hover){
+    filter: blur(2px);
+    opacity: 0.8;
+}

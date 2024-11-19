@@ -1,7 +1,12 @@
 import React from 'react'
+import Breadcrumb from '../../components/crump/Breadcrumb'
 
 export default function Contact() {
   return (
+    <>
+
+    <Breadcrumb pageName="contact page"/>
+
     <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="max-w-2xl mx-auto text-center">
@@ -100,6 +105,7 @@ export default function Contact() {
         </div>
     </div>
 </section>
+</>
 
   )
 }

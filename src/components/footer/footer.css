@@ -10,8 +10,18 @@
     
 }
 
-.linkk{
-    text-decoration: none;
-    
+.ulll li{
+    margin-top: 19px;
 }
 
+.linkk{
+    text-decoration: none;
+    color: black;
+}
+
+
+.linkk:hover{
+    text-decoration: none;
+    color: gold;
+    
+}

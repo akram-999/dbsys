@@ -1,4 +1,5 @@
 import React from 'react'
+import './realisation.css'
 
 export default function Realisation() {
   return (
@@ -9,17 +10,17 @@ export default function Realisation() {
     <h2 class="text-3xl lg:text-4xl text-gray-800 font-bold dark:text-neutral-200">
     Nos réalisations
     </h2>
-    <p class="mt-3 text-gray-800 dark:text-neutral-200">
+    {/* <p class="mt-3 text-gray-800 dark:text-neutral-200">
       The powerful and flexible theme for all kinds of businesses.
-    </p>
+    </p> */}
   </div>
  
 
   
   
 
-  <div class="mt-20 grid grid-cols-12 items-center gap-x-2 sm:gap-x-6 lg:gap-x-8">
-    <div class="hidden md:block col-span-4 md:col-span-3">
+  <div class="mt-20 grid grid-cols-12 items-center gap-x-2 sm:gap-x-6 lg:gap-x-8 im">
+    <div class="hidden md:block col-span-4 md:col-span-3 ">
       <img class="rounded-xl " src="https://dbsys-services.ma/img/photo/dmb1_800.jpg" alt="Features Image" />
     </div>
 

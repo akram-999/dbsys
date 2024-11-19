@@ -61,25 +61,25 @@ export default function footer() {
                     <div class="col-span-2 md:col-span-4 lg:col-span-4 lg:pr-8">
                         <p class="text-sm font-semibold tracking-widest text-gray-400 uppercase">Links</p>
 
-                        <ul class="md:m-6 md:flex items-center justify-between">
+                        <ul class="md:m-6  items-center ulll">
                             <li>
-                                <Link to="/" class="m-3  text-black transition-all duration-200  linkk"> ACCUEIL</Link >
+                                <Link to="/" class="m-3   transition-all duration-200  linkk"> ACCUEIL</Link >
                             </li>
 
                             <li>
-                                <Link to="/about" class="m-3  text-black transition-all duration-200 linkk"> A PROPOS NOUS </Link>
+                                <Link to="/about" class="m-3 transition-all duration-200 linkk"> A PROPOS NOUS </Link>
                             </li>
 
                             <li>
-                                <Link to="/solution" class="m-3    text-black transition-all duration-200   linkk"> NOS SOLUTIONS ET PRODUITS </Link >
+                                <Link to="/solution" class="m-3  transition-all duration-200   linkk"> NOS SOLUTIONS ET PRODUITS </Link >
                             </li> 
 
                             <li>
-                                <Link to="/services" class="m-3   text-black transition-all duration-200  linkk"> SERVICES </Link>
+                                <Link to="/services" class="m-3 transition-all duration-200  linkk"> SERVICES </Link>
                             </li>
 
                             <li>
-                                <Link to="/contact" class="m-3   text-black transition-all duration-200  linkk"> CONTACT </Link>
+                                <Link to="/contact" class="m-3 transition-all duration-200  linkk"> CONTACT </Link>
                             </li>
                         </ul>
                     </div>
