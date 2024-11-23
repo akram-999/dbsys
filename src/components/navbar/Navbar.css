@@ -1,0 +1,110 @@
+/* From Uiverse.io by joe-watson-sbf 
+.bt {
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #ffedd3;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  
+  .bt::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #ffc506;
+    transition: 0.5s ease;
+  }
+  
+  .bt:hover {
+    color: #1e1e2b;
+    transition-delay: 0.5s;
+  }
+  
+  .bt:hover::before {
+    width: 100%;
+  }
+  
+  .bt::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #ffc506;
+    transition: 0.4s ease;
+    z-index: -1;
+  }
+  
+  .bt:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
+   */
+
+
+   /* From Uiverse.io by nikk7007 */ 
+.bt {
+    --color: rgb(255, 221, 0);
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border: 2px solid rgb(255, 221, 0);
+    border-radius: 35px ;
+    
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+   }
+   
+   .bt::before, .bt::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+   
+   .bt::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .bt::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .bt:hover::before, .bt:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .bt:hover {
+    color: rgb(10, 25, 30);
+   }
+   
+   .bt:active {
+    filter: brightness(.8);
+   }
+   

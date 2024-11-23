@@ -1,0 +1,16 @@
+
+/*** Feature ***/
+.feature .feature-box,
+.feature .feature-box * {
+    transition: .5s;
+}
+
+.feature .feature-box:hover {
+    background: orange;
+    border-color: orange !important;
+}
+
+.feature .feature-box:hover * {
+    color: #FFFFFF !important;
+}
+

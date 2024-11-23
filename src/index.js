@@ -4,8 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import Navbar from './components/navbar/Navbar';
+import Navbar from './components/navbar/Navbarr';
 import Footer from './components/footer/Footer';
+
 
 
 

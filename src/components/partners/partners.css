@@ -1,0 +1,57 @@
+body {
+	align-items: center;
+	justify-content: center;
+}
+
+.slider {
+	height: 140px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	width: auto; /* Adjust width as needed */
+    align-items: center;
+}
+  
+.slide-track {
+	animation: scroll 10s linear infinite; /* Slower speed, adjust as needed */
+	display: flex;
+	width: fit-content;
+    white-space: nowrap;
+}
+  
+.slide {
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 250px;
+	height: 100px;
+	filter: saturate(0);
+	opacity: 50%;
+	transition: ease-in 0.2s;
+}
+  
+
+.slide:hover {
+	filter: saturate(100%);
+	opacity: 1;
+  }
+
+  
+/* Define keyframe animation for scrolling */
+@keyframes scroll {
+	0% {
+	  transform: translateX(20%);
+	}
+	100% {
+	  transform: translateX(-100%); /* Adjust based on total number of slides */
+	}
+}
+  
+/* Pause animation on hover */
+.slider:hover .slide-track {
+	animation-play-state:paused;
+}
+  
+.clt {
+	margin-top: 200px;
+	
+}
