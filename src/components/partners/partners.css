@@ -9,12 +9,12 @@ body {
 	margin: auto;
 	overflow: hidden;
 	position: relative;
-	width: auto; /* Adjust width as needed */
+	width: auto; 
     align-items: center;
 }
   
 .slide-track {
-	animation: scroll 10s linear infinite; /* Slower speed, adjust as needed */
+	animation: scroll 10s linear infinite; 
 	display: flex;
 	width: fit-content;
     white-space: nowrap;
@@ -36,18 +36,17 @@ body {
 	opacity: 1;
   }
 
-  
-/* Define keyframe animation for scrolling */
+
 @keyframes scroll {
 	0% {
 	  transform: translateX(20%);
 	}
 	100% {
-	  transform: translateX(-100%); /* Adjust based on total number of slides */
+	  transform: translateX(-100%); 
 	}
 }
   
-/* Pause animation on hover */
+
 .slider:hover .slide-track {
 	animation-play-state:paused;
 }

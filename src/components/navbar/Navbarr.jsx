@@ -67,6 +67,9 @@ export default function Example() {
           <Link to="#" className="text-sm/6 font-semibold text-gray-900 decoration-transparent">
           NOS SOLUTIONS ET PRODUITS
           </Link>
+          <Link to="/contact" className="text-sm/6 font-semibold text-gray-900 decoration-transparent">
+          CONTACT
+          </Link>
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900 outline-none">
             SERVICES
@@ -145,6 +148,11 @@ export default function Example() {
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50 decoration-transparent"
                 >
                   NOS SOLUTIONS ET PRODUITS
+                </Link >
+                <Link to="/contact"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50 decoration-transparent"
+                >
+                  CONTACT
                 </Link >
                 <Disclosure as="div" className="-mx-2">
                   <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
