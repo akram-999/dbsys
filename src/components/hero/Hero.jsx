@@ -5,7 +5,7 @@ import './Hero.css'
 export default function Hero() {
   return (
   
-<div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 mt-5">
+<div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 mt-5 ">
  
   <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
     
@@ -19,8 +19,8 @@ export default function Hero() {
                 className="link"
               >
               <button className='cta'>
-                <span>A PROPOS NOUS</span>
-                <svg width="15px" height="10px" viewBox="0 0 13 10">
+                <span className='dark:text-white'>A PROPOS NOUS</span>
+                <svg width="15px" height="10px" viewBox="0 0 13 10" className='dark:text-white' >
                   <path d="M1,5 L11,5"></path>
                   <polyline points="8 1 12 5 8 9"></polyline>
                 </svg>
@@ -35,7 +35,7 @@ export default function Hero() {
 
     <div class="relative ms-4" data-aos="fade-left">
       <img class="w-full rounded-md h-96" src="https://www.reametal.com/wp-content/uploads/Borne_Indoor_MacDonalds2.jpg" alt="Hero Image" />
-      <div class="absolute inset-0 -z-[1] bg-gradient-to-tr from-yellow-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-neutral-800 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
+      <div class="absolute inset-0 -z-[1] bg-gradient-to-tr from-yellow-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6 dark:from-yellow-200 dark:via-neutral-900/0 dark:to-neutral-900/0"></div>
 
       
       <div class="absolute bottom-0 start-0">

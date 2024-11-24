@@ -11,7 +11,7 @@ export default function Partners() {
   return (
     <div>
       <div className="clt ">
-          <h1 className="text-center tit" data-aos="zoom-in">Nos Partenaires</h1>
+          <h1 className="text-center tit dark:text-white" data-aos="zoom-in">Nos Partenaires</h1>
           
 
         </div>

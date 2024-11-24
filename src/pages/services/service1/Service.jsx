@@ -5,7 +5,7 @@ export default function Service() {
   return (
     <div>
       <Breadcrumb pageName="Support helpdesk"/>
-      <section class="bg-white dark:bg-gray-900">
+      <section class=" dark:bg-black">
       <div class=" px-6 py-10 mx-auto">
         
 
