@@ -1,16 +1,16 @@
 
 /*** Feature ***/
-.feature .feature-box,
-.feature .feature-box * {
+
+.avtg-box * {
     transition: .5s;
 }
 
-.feature .feature-box:hover {
+.avtg-box:hover {
     background: rgb(255, 221, 0);
     border-color: rgb(255, 221, 0) !important;
 }
 
-.feature .feature-box:hover * {
+.avtg-box:hover * {
     color: #FFFFFF !important;
 }
 

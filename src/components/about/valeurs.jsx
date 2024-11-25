@@ -5,7 +5,7 @@ import './valeurs.css'
 export default function Valeurs() {
   return (
     <>
-    <h1 className='text-center m-5 dark:text-white'>Nos Valeurs</h1>
+    <h1 className='text-center m-5 dark:text-white '>Nos <span className='underline decoration-yellow-400'>Valeurs</span> </h1>
     <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8 px-4">
         
         {data.map((data) => (

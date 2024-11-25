@@ -9,7 +9,7 @@ export default function Realisation() {
 
   <div class="mx-auto max-w-2xl mb-8 lg:mb-14 text-center">
     <h2 class="text-3xl lg:text-4xl text-gray-800 font-bold dark:text-neutral-200">
-    Nos réalisations
+    Nos <span className='underline decoration-yellow-400'>réalisations</span>
     </h2>
     {/* <p class="mt-3 text-gray-800 dark:text-neutral-200">
       The powerful and flexible theme for all kinds of businesses.
