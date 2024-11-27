@@ -4,6 +4,7 @@ import Solution from '../../components/solution/Solution'
 import Realisation from '../../components/realisation/Realisation'
 import About from '../../components/about/About'
 import Partners from '../../components/partners/Partners'
+import ProductList from '../../components/nouveautes/Products'
 
 
 
@@ -15,7 +16,7 @@ export default function Home() {
       <Partners/>
       <About/>
       <Solution/>
-      
+      <ProductList/>
       
       <Realisation/>
     </div>
