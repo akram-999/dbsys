@@ -113,7 +113,7 @@ export default function Contact() {
 </section>
 
             <div class="overflow-hidden m-5 rounded-lg lg:col-span-2 h-96 lg:h-auto">
-                <iframe width="100%" height="600px" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"></iframe>
+                <iframe width="100%" height="600px" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1662.769856911458!2d-7.6450235439678975!3d33.53935099776672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDMyJzIxLjciTiA3wrAzOCc0NC44Ilc!5e0!3m2!1sar!2sma!4v1732794156741!5m2!1sar!2sma"></iframe>
             </div>
 </>
 

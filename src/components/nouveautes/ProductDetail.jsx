@@ -50,8 +50,8 @@ export default function ProductDetail() {
 
             <ul>
               
-              <li className=" dark:text-gray-400"><span className="text-gray-400  dark:text-yellow-400">Size :</span> {product.Ecran.Taill.join(" , ")}</li>
-              <li className=" dark:text-gray-400"><span className="text-gray-400  dark:text-yellow-400">Resolution :</span>  {product.Ecran.Resolution.join(" , ")}</li>
+              <li className=" dark:text-gray-400"><span className="text-yellow-400  dark:text-yellow-400">Size :</span> {product.Ecran.Taill.join(" , ")}</li>
+              <li className=" dark:text-gray-400"><span className="text-yellow-400  dark:text-yellow-400">Resolution :</span>  {product.Ecran.Resolution.join(" , ")}</li>
             </ul>
           </div>
             }
@@ -83,7 +83,7 @@ export default function ProductDetail() {
 
 {product.Dimensions && 
           <div>
-            <h3 className="text-sm font-medium text-gray-900 dark:text-yellow-400">Stockage</h3>
+            <h3 className="text-sm font-medium text-gray-900 dark:text-yellow-400">Dimensions</h3>
 
             <p className="text-gray-400 dark:text-gray-400">{product.Dimensions}</p>
           </div>
