@@ -32,6 +32,14 @@ const products = [
   
 ]
 
+const produits = [
+  { name: 'TPV POS',  href: '/pos'  },
+  { name: 'BORNES ', href: '/bornes'  },
+  { name: 'DRIVE THRU',  href: '/drive'  },
+  { name: 'DIGITAL SIGNAGE ', href: '/signage'  },
+  { name: 'PAGERS & SERVICE A TABLE ', href: '/pagers'  },
+  
+]
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -93,9 +101,36 @@ export default function Example() {
           <Link to="/about" className="text-sm/6 font-semibold text-gray-900 dark:text-white decoration-transparent">
           A PROPOS NOUS
           </Link>
-          <Link to="#" className="text-sm/6 font-semibold text-gray-900 dark:text-white decoration-transparent">
-          NOS SOLUTIONS ET PRODUITS
-          </Link>
+          <Popover className="relative">
+            <PopoverButton className="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900 dark:text-white outline-none">
+            NOS SOLUTION ET PRODUITS
+              <ChevronDownIcon aria-hidden="true" className="size-5 flex-none text-gray-400 dark:text-white" />
+            </PopoverButton>
+
+            <PopoverPanel
+              transition
+              className="absolute -left-8 top-full z-10 mt-3 w-64 max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+            >
+              <div className="p-2">
+                {produits.map((item) => (
+                  <div
+                    key={item.name}
+                    className="group relative flex items-center gap-x-6 rounded-lg p-2 text-sm/6 hover:bg-yellow-50"
+                  >
+                    
+                    <div className="flex-auto">
+                      <Link to={item.href} className="block font-semibold text-gray-900 decoration-transparent">
+                        {item.name}
+                        <span className="absolute inset-0" />
+                      </Link>
+                     
+                    </div>
+                  </div>
+                ))}
+              </div>
+              
+            </PopoverPanel>
+          </Popover>
           <Link to="/contact" className="text-sm/6 font-semibold text-gray-900 dark:text-white decoration-transparent">
           CONTACT
           </Link>
@@ -107,13 +142,13 @@ export default function Example() {
 
             <PopoverPanel
               transition
-              className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+              className="absolute -left-8 top-full z-10 mt-3 w-64 max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
             >
               <div className="p-2">
                 {products.map((item) => (
                   <div
                     key={item.name}
-                    className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50"
+                    className="group relative flex items-center gap-x-6  rounded-lg p-2 text-sm/6 hover:bg-yellow-50"
                   >
                     
                     <div className="flex-auto">
@@ -201,11 +236,24 @@ export default function Example() {
                 >
                   A PROPOS NOUS
                 </Link>
-                <Link to="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50 decoration-transparent"
-                >
-                  NOS SOLUTIONS ET PRODUITS
-                </Link >
+                <Disclosure as="div" className="-mx-2">
+                  <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">
+                    NOS SOLUTION ET PRODUITS
+                    <ChevronDownIcon aria-hidden="true" className="size-5 flex-none group-data-[open]:rotate-180" />
+                  </DisclosureButton>
+                  <DisclosurePanel className="mt-2 space-y-2">
+                    {[...produits].map((item) => (
+                      <DisclosureButton
+                        key={item.name}
+                        as="a"
+                        href={item.href}
+                        className="block rounded-lg py-2 pl-6 pr-3 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50 decoration-transparent"
+                      >
+                        {item.name}
+                      </DisclosureButton>
+                    ))}
+                  </DisclosurePanel>
+                </Disclosure>
                 <Link to="/contact"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50 decoration-transparent"
                 >
