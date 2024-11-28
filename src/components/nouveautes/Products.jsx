@@ -34,9 +34,10 @@ export default function Products() {
                <img src={product.img1} alt="image" className="card__img" />
 
                <div className="card__data">
+                  <h2 className="card__title text-white">{product.name}</h2>
                   <span className="card__description">{product.category}</span>
-                  <h2 className="card__title">{product.name}</h2>
-                  <a href="#" className="card__button">Read More</a>
+                  
+                  <Link to={`/product/${product.id}`} className="card__button ">En Savoir Plus</Link>
                </div>
             </article>
           

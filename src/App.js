@@ -8,7 +8,7 @@ import Contact from './pages/contact/Contact';
 import About from './pages/about/About';
 import Service from './pages/services/service1/Service';
 import Service2 from './pages/services/service2/Service';
-
+import ProductDetail from './components/nouveautes/ProductDetail'
 
 
 
@@ -23,7 +23,7 @@ function App() {
           <Route path='/about' element={<About/>}/> 
           <Route path='/service1' element={<Service/>}/> 
           <Route path='/service2' element={<Service2/>}/> 
-          
+          <Route path='/product/:id' element={<ProductDetail />} />
            
     </Routes>
   );
