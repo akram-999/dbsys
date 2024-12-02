@@ -169,8 +169,8 @@ export default function Example() {
         </PopoverGroup>
         <div className='hidden lg:flex lg:flex-1 lg:justify-end '>
             
-            <Link to="#" className="text-sm/6 font-semibold text-gray-900 dark:text-white decoration-transparent">
-                Log in <span aria-hidden="true">&rarr;</span>
+            <Link to="/singup" className="text-sm/6 font-semibold text-gray-900 dark:text-white decoration-transparent">
+                Sin Up <span aria-hidden="true">&rarr;</span>
               </Link>
               
               

@@ -5,6 +5,7 @@ import Realisation from '../../components/realisation/Realisation'
 import About from '../../components/about/About'
 import Partners from '../../components/partners/Partners'
 import ProductList from '../../components/nouveautes/Products'
+// import Test from '../../components/solution/testsol'
 
 
 
@@ -16,6 +17,7 @@ export default function Home() {
       <Partners/>
       <About/>
       <Solution/>
+      {/* <Test/> */}
       <ProductList/>
       
       <Realisation/>

@@ -7,7 +7,7 @@ const Breadcrumb = ({
   }) => {
     return (
       <>
-        <div className=" relative overflow-hidden  bg-yellow-50 p-20 dark:bg-yellow-400">
+        <div className=" relative overflow-hidden  bg-yellow-50 p-20 dark:bg-yellow-300">
           <div className="from-stroke/0  via-stroke to-stroke/0 dark:via-dark-3 absolute bottom-0 left-0 h-px w-full bg-gradient-to-r"></div>
           <div className="container">
             <div className="-mx-4 flex flex-wrap items-center">

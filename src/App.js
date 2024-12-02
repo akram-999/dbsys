@@ -14,6 +14,7 @@ import Drive from './pages/produits/drive-thru/Drive';
 import Pagers from './pages/produits/pagers/Pagers';
 import Signage from './pages/produits/signage/Signage';
 import TpvPos from './pages/produits/tpvpos/TpvPos';
+import Singup from './pages/singup/Singup'
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Route path='/pagers' element={<Pagers />} />
           <Route path='/signage' element={<Signage />} />
           <Route path='/pos' element={<TpvPos />} />
+          <Route path='/singup' element={<Singup />} />
            
     </Routes>
   );
