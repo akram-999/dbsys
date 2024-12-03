@@ -15,6 +15,7 @@ import Pagers from './pages/produits/pagers/Pagers';
 import Signage from './pages/produits/signage/Signage';
 import TpvPos from './pages/produits/tpvpos/TpvPos';
 import Singup from './pages/singup/Singup'
+import SolDetail from './pages/produits/tpvpos/SolDetail';
 
 
 function App() {
@@ -36,6 +37,8 @@ function App() {
           <Route path='/signage' element={<Signage />} />
           <Route path='/pos' element={<TpvPos />} />
           <Route path='/singup' element={<Singup />} />
+          <Route path='/solution/tpv-pos/:id' element={<SolDetail />} />
+
            
     </Routes>
   );
