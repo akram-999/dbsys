@@ -60,11 +60,11 @@ export default function Realisation() {
                 src={image.src}
                 alt={image.title}
               />
-              <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
+              {/* <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
                 <div className="text-sm font-semibold text-gray-800 rounded-lg bg-white p-3 md:text-xl dark:bg-neutral-800 dark:text-neutral-200">
                   {image.title}
                 </div>
-              </div>
+              </div> */}
             </div>
           </SwiperSlide>
         ))}

@@ -170,7 +170,8 @@ export default function Example() {
         <div className='hidden lg:flex lg:flex-1 lg:justify-end '>
             
             <Link to="/singup" className="text-sm/6 font-semibold text-gray-900 dark:text-white decoration-transparent">
-                Sin Up <span aria-hidden="true">&rarr;</span>
+                Sin Up 
+                {/* <span aria-hidden="true">&rarr;</span> */}
               </Link>
               
               

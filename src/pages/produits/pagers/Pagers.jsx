@@ -72,7 +72,7 @@ export default function Pagers() {
               
 
               <div class="mt-10 relative max-w-5xl mx-auto">
-                <div class="w-full object-cover h-96 sm:h-[480px] bg-[url('https://img.freepik.com/free-photo/top-view-old-device-desk_23-2150756330.jpg?t=st=1733140503~exp=1733144103~hmac=b61c31943c4c64467d1df322498a39f379d40c51f7c06552e5f050647bc42ec8&w=1060')] bg-no-repeat bg-center bg-cover rounded-xl"></div>
+                <div class="w-full object-cover h-96 sm:h-[480px] bg-[url('https://img.freepik.com/free-photo/top-view-old-device-desk_23-2150756330.jpg?t=st=1733140503~exp=1733144103~hmac=b61c31943c4c64467d1df322498a39f379d40c51f7c06552e5f050647bc42ec8&w=1060')] bg-no-repeat bg-center bg-cover rounded-xl" data-aos="flip-up"></div>
 
                 
 
@@ -85,7 +85,7 @@ export default function Pagers() {
                 </div>
               </div>
 
-              <div class="max-w-2xl mt-5 text-center mx-auto">
+              <div class="max-w-2xl mt-5 text-center mx-auto" data-aos="zoom-out-down">
                 <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl dark:text-white">Restaurant Pagers et Coasters</h1>
                 <p class="mt-3 text-lg text-gray-800 dark:text-neutral-400 ">' COMMUNICATION SANS EFFORT '</p>
                 <p className='dark:text-neutral-400'>Les solutions d’assistance à la clientèle transforment l’expérience de vos clients en leur offrant un moyen efficace et pratique de demander du service , ou d'une simple pression sur le bouton d’assistance on envoie instantanément une alerte au membre du personnel concerné indiquant que le service est requis, le service est plus rapide et transparent, ce qui améliore grandement la perception de l’invité.</p>
@@ -103,7 +103,7 @@ export default function Pagers() {
               <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-2">
                   
               {Pagers.map((pag) => (
-              <div class="relative flex flex-col items-center border border-solid border-gray-200 rounded-2xl transition-all duration-500 md:flex-row md:max-w-lg " data-aos="zoom-in">
+              <div class="relative flex flex-col items-center border border-solid border-gray-200 rounded-2xl transition-all duration-500 md:flex-row md:max-w-lg hover:shadow-xl" data-aos="zoom-in">
               
 
                   <div class="block  w-5/6 h-48">
@@ -157,7 +157,7 @@ export default function Pagers() {
               <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-3 xl:grid-cols-3">
                   
               {steps.map((step) => (
-              <div class="rounded-xl bg-white shadow-lg  shadow-gray-300 overflow-hidden" data-aos="zoom-in">
+              <div class="rounded-xl bg-white   overflow-hidden hover:shadow-xl" data-aos="zoom-in">
               <img src={step.img} alt="image" className='text-center px-5'/>
               <div class="w-full p-6 ">
                 
