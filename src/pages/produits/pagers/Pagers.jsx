@@ -94,32 +94,26 @@ export default function Pagers() {
           </div>
 
 
-          <section class=" avtg">
+          <section class="  avtg">
           <div class="container px-6 py-10 mx-auto">
-              <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl text-center dark:text-white" data-aos="zoom-in">Avantages  <span class="underline decoration-yellow-400">client</span></h1>
+              <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl text-center dark:text-white" data-aos="zoom-in">Utilisation de votre système de localisation <span className='underline decoration-yellow-400'> des invités EasyVu</span> </h1>
 
               
 
-              <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-2">
+              <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-3 xl:grid-cols-4">
                   
-              {Pagers.map((pag) => (
-              <div class="relative flex flex-col items-center border border-solid border-gray-200 rounded-2xl transition-all duration-500 md:flex-row md:max-w-lg hover:shadow-xl" data-aos="zoom-in">
-              
-
-                  <div class="block  w-5/6 h-48">
-                    <img src={pag.img} alt="Card image" class="h-full w-full  rounded-2xl object-cover" />
-                  </div>
-                    <div class="p-3">
-                    <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">{pag.tittle}</h4>
-                    <p class="text-sm font-normal text-gray-500 dark:text-neutral-400  transition-all duration-500 leading-5 mb-5"> {pag.description} </p>
-                    
-                    </div> 
-                  
-                </div>  
+              {Pagers.map((stepp) => (
+              <div class="rounded-xl bg-white   overflow-hidden hover:shadow-xl" data-aos="zoom-in">
+              <img src={stepp.img} alt="image" className='text-center px-5'/>
+              <div class="w-full p-6 ">
+              <h4 class="text-base font-semibold text-gray-900 mb-2 capitalize transition-all duration-500 ">{stepp.tittle}</h4>
+                <p class="text-sm font-medium text-gray-600 "> {stepp.description} </p>
+              </div>
+              </div>  
                   ))} 
               </div>
           </div>
-      </section>
+      </section> 
 
 
      
@@ -147,28 +141,41 @@ export default function Pagers() {
 </div>
 
 
+ 
 
-<section class="  avtg">
-          <div class="container px-6 py-10 mx-auto">
-              <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl text-center dark:text-white" data-aos="zoom-in">Utilisation de votre système de localisation <span className='underline decoration-yellow-400'> des invités EasyVu</span> </h1>
+      
 
-              
-
-              <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-3 xl:grid-cols-3">
-                  
-              {steps.map((step) => (
-              <div class="rounded-xl bg-white   overflow-hidden hover:shadow-xl" data-aos="zoom-in">
-              <img src={step.img} alt="image" className='text-center px-5'/>
-              <div class="w-full p-6 ">
-                
-                <p class="text-sm font-medium text-gray-600 "> {step.description} </p>
-              </div>
-              </div>  
-                  ))} 
-              </div>
+      <div id="portfolio" class="our-portfolio section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+            <h2 className='dark:text-white'>Utilisation de votre système de localisation <span className='underline decoration-yellow-400'>des invités EasyVu</span></h2>
           </div>
-      </section>
-
+        </div>
+      </div>
+      <div class="row">
+      {steps.map((step) => (
+        <div class="col-lg-3 col-sm-6 my-3 " data-aos="zoom-in">
+          
+            <div class="item wow bounceInUp " data-wow-duration="1s" data-wow-delay="0.3s">
+              <div class="hidden-content">
+                <h4>{step.description}</h4>
+          
+              </div>
+              <div class="showed-content">
+                <img src={step.img} alt=""/>
+              </div>
+            </div>
+         
+        </div>
+        ))}
+        
+        
+        
+      </div>
+    </div>
+  </div>
 
 
     </div>
