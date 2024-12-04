@@ -178,3 +178,55 @@
 
 
 
+  
+  
+  
+  
+   .card {
+    position: relative;
+    margin-bottom: 5rem;
+    border-radius: 10px;
+    
+  }
+  
+   .card .quotes {
+    position: absolute;
+    top: -15px;
+    right: 0;
+    left: 0;
+    width: 48px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+   .card-body {
+    padding: 3.5rem 2rem 3.125rem 2rem;
+  }
+  
+   .testimonial-author {
+    margin-bottom: 0.125rem;
+    
+  }
+  
+   .occupation {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+  
+   .card .gradient-floor {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+   .card .gradient-floor.red-to-blue {
+    background: linear-gradient(to right, rgb(255, 221, 0), #ffffff);
+  }
+  
+  
+  
+  
