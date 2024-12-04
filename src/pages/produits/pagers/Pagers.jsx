@@ -150,7 +150,7 @@ export default function Pagers() {
       <div class="row">
         <div class="col-lg-6 offset-lg-3">
           <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-            <h2 className='dark:text-white'>Utilisation de votre système de localisation <span className='underline decoration-yellow-400'>des invités EasyVu</span></h2>
+            <h2 className='dark:text-white' data-aos="fade-up">Utilisation de votre système de localisation <span className='underline decoration-yellow-400'>des invités EasyVu</span></h2>
           </div>
         </div>
       </div>
