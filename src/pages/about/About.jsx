@@ -17,10 +17,10 @@ export default function About() {
         <div className=" -mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">
             <div className="mb-12 max-w-[540px] lg:mb-0">
-              <h2 className="mb-5 text-3xl font-bold leading-tight  dark:text-white sm:text-[40px] sm:leading-[1.2]">
+              <h2 className="mb-5 text-3xl font-bold leading-tight  dark:text-white sm:text-[40px] sm:leading-[1.2]" data-aos="fade-right" data-aos-duration="800">
               Enthousiasme et innovation à la rencontre de l'expérience...
               </h2>
-              <p className="mb-10 text-base leading-relaxed text-body-color dark:text-neutral-400">
+              <p className="mb-10 text-base leading-relaxed text-body-color dark:text-neutral-400" data-aos="fade-right" data-aos-duration="1300">
               <span className='text-yellow-400'>DBSYS Services</span> est le fruit de 15 années cumulées dans la gestion des flux informatiques , dans la restauration rapide et plus généralement dans le CHR. Ces fondateurs,
                ayant travaillé pour les plus grandes chaines de QSR mondiales, ont relevés divers challenges pour identifier, développer et déployer les meilleures technologies pour accompagner la croissance de grandes marques.
                 <br /> <br />
