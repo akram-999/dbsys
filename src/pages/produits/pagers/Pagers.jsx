@@ -85,10 +85,10 @@ export default function Pagers() {
                 </div>
               </div>
 
-              <div class="max-w-2xl mt-5 text-center mx-auto" data-aos="zoom-out-down">
-                <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl dark:text-white">Restaurant Pagers et Coasters</h1>
-                <p class="mt-3 text-lg text-gray-800 dark:text-neutral-400 ">' COMMUNICATION SANS EFFORT '</p>
-                <p className='dark:text-neutral-400'>Les solutions d’assistance à la clientèle transforment l’expérience de vos clients en leur offrant un moyen efficace et pratique de demander du service , ou d'une simple pression sur le bouton d’assistance on envoie instantanément une alerte au membre du personnel concerné indiquant que le service est requis, le service est plus rapide et transparent, ce qui améliore grandement la perception de l’invité.</p>
+              <div class="max-w-2xl mt-5 text-center mx-auto" >
+                <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl dark:text-white" data-aos="zoom-out-down">Restaurant Pagers et Coasters</h1>
+                <p class="mt-3 text-lg text-gray-800 dark:text-neutral-400 " data-aos="zoom-out-down">' COMMUNICATION SANS EFFORT '</p>
+                <p className='dark:text-neutral-400' data-aos="zoom-out-down">Les solutions d’assistance à la clientèle transforment l’expérience de vos clients en leur offrant un moyen efficace et pratique de demander du service , ou d'une simple pression sur le bouton d’assistance on envoie instantanément une alerte au membre du personnel concerné indiquant que le service est requis, le service est plus rapide et transparent, ce qui améliore grandement la perception de l’invité.</p>
               </div>
             </div>
           </div>
@@ -120,10 +120,10 @@ export default function Pagers() {
 <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 mt-10">
  
   <div class="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
-    <div class="lg:col-span-3" data-aos="fade-right">
-      <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white">Système de localisation des <span className='underline decoration-yellow-400'>tables</span> </h1>
-      <p class="mt-3 text-lg text-gray-800 dark:text-neutral-400">' EasyVu™ '</p>
-      <p class="mt-3 text-lg text-gray-800 dark:text-neutral-400">Permettez aux serveurs et au personnel de localiser avec précision les invités et de fournir des services plus rapidement, ce qui permet d'améliorer la satisfaction de vos clients grâce à un service rapide.</p>
+    <div class="lg:col-span-3" >
+      <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white" data-aos="fade-right">Système de localisation des <span className='underline decoration-yellow-400'>tables</span> </h1>
+      <p class="mt-3 text-lg text-gray-800 dark:text-neutral-400" data-aos="fade-right">' EasyVu™ '</p>
+      <p class="mt-3 text-lg text-gray-800 dark:text-neutral-400" data-aos="fade-right">Permettez aux serveurs et au personnel de localiser avec précision les invités et de fournir des services plus rapidement, ce qui permet d'améliorer la satisfaction de vos clients grâce à un service rapide.</p>
 
      
 

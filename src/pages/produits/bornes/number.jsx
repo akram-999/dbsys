@@ -3,6 +3,7 @@ import { useSpring, animated } from 'react-spring'
 
 
 
+
 function Number ({n}) {
  const {number} = useSpring({
     from : {number : 0},
@@ -55,6 +56,11 @@ export default function number() {
 
         <div class="grid grid-cols-1 gap-8 mt-10 text-center lg:mt-24 sm:gap-x-8 md:grid-cols-4">
             <div data-aos="zoom-in">
+
+
+               
+                
+                
                 <h3 class=" font-bold text-7xl">
                     <span class="flex ml-9 text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-yellow-400"> <Number n={20} /> %</span>
                 </h3>

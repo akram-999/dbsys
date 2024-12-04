@@ -23,10 +23,10 @@ export default function Bornes() {
                 </div>
               </div>
 
-              <div class="max-w-2xl mt-5 text-center mx-auto" data-aos="zoom-out-down">
-                <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl dark:text-white">LES BORNES DE COMMANDE</h1>
-                <p class="mt-3 text-lg text-gray-800 dark:text-neutral-400 ">Que ce soit pour l’intérieur ou l’extérieur, les bornes de commande à écran tactile sont conçues pour augmenter le confort client et mieux gérer les flux de consommateurs lors des heures de grande affluence.</p>
-                <p className='dark:text-neutral-400'>Notre gamme de bornes libre-service a été conçue pour s’adapter à de nombreux secteurs d’activité, tel que : la restauration rapide, l’hôtellerie, les loisirs et le commerce de détail.</p>
+              <div class="max-w-2xl mt-5 text-center mx-auto" >
+                <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl dark:text-white" data-aos="zoom-out-down">LES BORNES DE COMMANDE</h1>
+                <p class="mt-3 text-lg text-gray-800 dark:text-neutral-400 " data-aos="zoom-out-down">Que ce soit pour l’intérieur ou l’extérieur, les bornes de commande à écran tactile sont conçues pour augmenter le confort client et mieux gérer les flux de consommateurs lors des heures de grande affluence.</p>
+                <p className='dark:text-neutral-400' data-aos="zoom-out-down">Notre gamme de bornes libre-service a été conçue pour s’adapter à de nombreux secteurs d’activité, tel que : la restauration rapide, l’hôtellerie, les loisirs et le commerce de détail.</p>
               </div>
             </div>
           </div>

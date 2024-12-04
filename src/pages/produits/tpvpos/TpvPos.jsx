@@ -57,9 +57,9 @@ export default function TpvPos() {
                 </div>
               </div>
 
-              <div className="max-w-2xl mt-5 text-center mx-auto" data-aos="zoom-out-down">
-                <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl dark:text-white">Caisse enregistreuse</h1>
-                <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400 ">Partenaire des plus grands fournisseurs matériels de caisse enregistreuse, DBSYS SERVICES propose une gamme étendue de caisses enregistreuse tactiles. Toutes sélectionnées pour vous assurer un encaissement fiable et performant.</p>
+              <div className="max-w-2xl mt-5 text-center mx-auto" >
+                <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl dark:text-white" data-aos="zoom-out-down">Caisse enregistreuse</h1>
+                <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400 " data-aos="zoom-out-down">Partenaire des plus grands fournisseurs matériels de caisse enregistreuse, DBSYS SERVICES propose une gamme étendue de caisses enregistreuse tactiles. Toutes sélectionnées pour vous assurer un encaissement fiable et performant.</p>
                 </div>
             </div>
           </div>
