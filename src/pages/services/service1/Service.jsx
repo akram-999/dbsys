@@ -6,7 +6,7 @@ export default function Service() {
   return (
     <div>
       <Breadcrumb pageName="Support helpdesk"/>
-      <section class=" dark:bg-black">
+      <section class=" ">
       <div class=" px-6 py-10 mx-auto">
         
 
@@ -34,7 +34,7 @@ export default function Service() {
 </section>
 
 
-<section class=" dark:bg-black avtg">
+<section class="  avtg">
     <div class="container px-6 py-10 mx-auto">
         <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl text-center dark:text-white" data-aos="zoom-in">Avantages  <span class="underline decoration-yellow-400">client</span></h1>
 

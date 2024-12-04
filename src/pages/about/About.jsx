@@ -10,7 +10,7 @@ export default function About() {
 
     <section
     id="about"
-    className="bg-gray-1 dark:bg-black pb-8 pt-20  lg:pb-[70px] lg:pt-[120px]"
+    className="bg-gray-1  pb-8 pt-20  lg:pb-[70px] lg:pt-[120px]"
   >
     <div className="container">
       <div className=" fadeInUp" data-wow-delay=".2s">
