@@ -24,15 +24,20 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 250px;
-	height: 100px;
-	filter: saturate(0);
-	opacity: 60%;
+	height: 130px;
+	
+	
+	
+	
+}
+ 
+.slide img{
+	opacity: 40%;
 	transition: ease-in 0.2s;
 }
-  
 
-.slide:hover {
-	filter: saturate(100%);
+.slide:hover img {
+	
 	opacity: 1;
   }
 

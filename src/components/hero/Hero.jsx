@@ -10,7 +10,7 @@ export default function Hero() {
   <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
     
     <div  >
-      <h1 class="block font-bold text-gray-800 sm:text-4xl  lg:leading-tight dark:text-white" data-aos="fade-right" data-aos-duration="900"><span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-yellow-400">DBSYS SERVICES </span> Excellence Technique et Passion au Service de Votre Entreprise </h1>
+      <h1 class="block font-bold text-gray-800 sm:text-4xl  lg:leading-tight dark:text-white" data-aos="fade-right" data-aos-duration="900"><span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-yellow-400 dark:bg-gradient-to-r dark:from-orange-300 dark:to-yellow-400">DBSYS SERVICES </span> Excellence Technique et Passion au Service de Votre Entreprise </h1>
       <p class="mt-3 text-lg text-gray-800 dark:text-neutral-400" data-aos="fade-right" data-aos-duration="1400">Chez DBSYS SERVICES, nous faisons de notre passion, de notre innovation, et de notre expertise les moteurs de notre engagement envers vous. Avec une approche de proximité et une recherche constante de la meilleure technologie, nous accompagnons chaque client en tant que partenaire de confiance, pour transformer leurs ambitions en réussites.</p>
 
       <div class="mt-7 grid gap-3 w-full sm:inline-flex" data-aos="fade-right" data-aos-duration="1600">

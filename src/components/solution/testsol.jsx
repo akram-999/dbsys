@@ -11,11 +11,14 @@ const Features = () => {
     <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       <div className="relative p-6 md:p-16 ">
         {/* Grid */}
-        <h2 className="text-2xl text-center text-gray-800 font-bold sm:text-3xl mb-5 dark:text-neutral-200 underline decoration-yellow-400" data-aos="zoom-in" >
+        
+            <h2 className="text-2xl text-center text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-yellow-400 dark:bg-gradient-to-r  dark:from-orange-300 dark:to-yellow-400  sm:text-3xl mb-5  " data-aos="zoom-in" >
             Nos Solutions
             </h2>
+           
+          
         <div className="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center  ">
-          <div className="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2 ">
+          <div className="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2 bg-gray-100 px-6 rounded-lg">
             
 
             {/* Tab Navs */}
@@ -27,7 +30,7 @@ const Features = () => {
                   description: 'Une large gamme de caisses enregistreuses adaptée à chaque type de commerce.',
                   icon: (
                     <svg
-                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
+                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600  dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -52,7 +55,7 @@ const Features = () => {
                   description: 'Bornes de commande ou interactive , personnalisable selon le besoin.',
                   icon: (
                     <svg
-                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
+                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600  dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -74,7 +77,7 @@ const Features = () => {
                   description: 'Nos solutions permettent aux clients de prendre les commandes avec precision et rapidité , le client est en contact directe avec le caissier.',
                   icon: (
                     <svg
-                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
+                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600  dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -99,7 +102,7 @@ const Features = () => {
                   description: 'Diffusez vos messages au clients en un seul clic , notre solution vous fait gagner du temps.',
                   icon: (
                     <svg
-                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
+                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600  dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -124,7 +127,7 @@ const Features = () => {
                   description: 'Expérience client: les clients ne se rassemblent plus au comptoir. Cela crée une expérience plus calme et plus agréable.',
                   icon: (
                     <svg
-                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
+                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600  dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -147,7 +150,7 @@ const Features = () => {
                 <button
                   key={tab.id}
                   type="button"
-                  className={`hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-yellow-200 focus:outline-none focus:bg-yellow-200 p-4 md:p-5 rounded-xl ${
+                  className={`hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-white focus:outline-none focus:bg-white focus:text-yellow-400 p-4 md:p-5 rounded-xl ${
                     activeTab === tab.id
                       ? 'dark:hs-tab-active:bg-neutral-700 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700 active'
                       : ''
@@ -155,12 +158,12 @@ const Features = () => {
                   id={`tabs-with-card-item-${tab.id}`}
                   aria-selected={activeTab === tab.id}
                   onClick={() => handleTabClick(tab.id)}
-                  data-aos="zoom-in"
+                  
                 >
                   <span className="flex gap-x-6">
                     {tab.icon}
                     <span className="grow">
-                      <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-neutral-200">
+                      <span className="block text-lg font-semibold hs-tab-active:text-yellow-600  dark:hs-tab-active:text-yellow-400 dark:text-neutral-200">
                         {tab.title}
                       </span>
                       <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-neutral-200">

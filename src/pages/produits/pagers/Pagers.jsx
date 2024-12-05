@@ -1,5 +1,7 @@
 import React from 'react'
 // import Breadcrumb from '../../../components/crump/Breadcrumb'
+import {Link} from 'react-router-dom'
+import './pag.css'
 
 
 export default function Pagers() {
@@ -94,7 +96,7 @@ export default function Pagers() {
           </div>
 
 
-          <section class="  avtg">
+          {/* <section class="  avtg">
           <div class="container px-6 py-10 mx-auto">
               <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl text-center dark:text-white" data-aos="zoom-in">Utilisation de votre système de localisation <span className='underline decoration-yellow-400'> des invités EasyVu</span> </h1>
 
@@ -113,7 +115,34 @@ export default function Pagers() {
                   ))} 
               </div>
           </div>
-      </section> 
+      </section>  */}
+
+
+      <div className="service-area  py-12 relative">
+  <div className="container mx-auto">
+  <h1 class="text-2xl font-semibold my-5 text-gray-800 capitalize lg:text-3xl text-center dark:text-white" data-aos="zoom-in">Utilisation de votre système de localisation <span className='underline decoration-yellow-400'> des invités EasyVu</span> </h1>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+
+      {/* Single Service Item */}
+      {Pagers.map((stepp) => (
+      <div className="single-service-inner-2 text-center" data-aos="zoom-in">
+        <div className="thumb bg-yellow-50 rounded-lg p-6">
+          <img src={stepp.img} alt="CloudCRM" className="transform scale-105 transition-transform duration-500 hover:scale-110" />
+        </div>
+        <div className="details bg-white mt-[-40px] relative z-10 rounded-tl-[40px] p-6 shadow-lg">
+          
+          <h5 className="text-xl font-semibold mb-2 hover:text-yellow-400">
+            {stepp.tittle}
+          </h5>
+          <p className="text-gray-500">{stepp.description}</p>
+        </div>
+      </div>
+))}
+     
+    </div>
+  </div>
+</div>
 
 
      

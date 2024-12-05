@@ -32,9 +32,9 @@ export default function Realisation() {
 
   return (
     <div className="max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-      <h1 className="text-center tit my-5 dark:text-white" data-aos="zoom-in">
-        Nos <span className="underline decoration-yellow-400">réalisations</span>
-      </h1>
+      <h2 className="text-center tit my-5 text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-yellow-400 dark:bg-gradient-to-r  dark:from-orange-300 dark:to-yellow-400" data-aos="zoom-in">
+        Nos réalisations
+      </h2>
 
       {/* Swiper Carousel */}
       <Swiper
@@ -48,6 +48,7 @@ export default function Realisation() {
           768: { slidesPerView: 2 },
           1024: { slidesPerView: 3 },
         }}
+        
       >
         {images.map((image, index) => (
           <SwiperSlide key={index}>
@@ -60,11 +61,7 @@ export default function Realisation() {
                 src={image.src}
                 alt={image.title}
               />
-              {/* <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
-                <div className="text-sm font-semibold text-gray-800 rounded-lg bg-white p-3 md:text-xl dark:bg-neutral-800 dark:text-neutral-200">
-                  {image.title}
-                </div>
-              </div> */}
+              
             </div>
           </SwiperSlide>
         ))}
