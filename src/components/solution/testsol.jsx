@@ -18,7 +18,7 @@ const Features = () => {
            
           
         <div className="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center  ">
-          <div className="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2 bg-gray-100 px-6 rounded-lg">
+          <div className="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2 bg-gray-100 dark:bg-gray-700 px-6 rounded-lg">
             
 
             {/* Tab Navs */}
@@ -30,7 +30,7 @@ const Features = () => {
                   description: 'Une large gamme de caisses enregistreuses adaptée à chaque type de commerce.',
                   icon: (
                     <svg
-                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600  dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
+                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600  dark:hs-tab-active:text-blue-500 dark:text-yellow-400"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -55,7 +55,7 @@ const Features = () => {
                   description: 'Bornes de commande ou interactive , personnalisable selon le besoin.',
                   icon: (
                     <svg
-                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600  dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
+                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600  dark:hs-tab-active:text-blue-500 dark:text-yellow-400"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -77,7 +77,7 @@ const Features = () => {
                   description: 'Nos solutions permettent aux clients de prendre les commandes avec precision et rapidité , le client est en contact directe avec le caissier.',
                   icon: (
                     <svg
-                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600  dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
+                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600  dark:hs-tab-active:text-blue-500 dark:text-yellow-400"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -102,7 +102,7 @@ const Features = () => {
                   description: 'Diffusez vos messages au clients en un seul clic , notre solution vous fait gagner du temps.',
                   icon: (
                     <svg
-                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600  dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
+                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600  dark:hs-tab-active:text-blue-500 dark:text-yellow-400"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -127,7 +127,7 @@ const Features = () => {
                   description: 'Expérience client: les clients ne se rassemblent plus au comptoir. Cela crée une expérience plus calme et plus agréable.',
                   icon: (
                     <svg
-                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600  dark:hs-tab-active:text-blue-500 dark:text-neutral-200"
+                      className="shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-blue-600  dark:hs-tab-active:text-blue-500   dark:text-yellow-400"
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
                       height="24"
@@ -150,9 +150,9 @@ const Features = () => {
                 <button
                   key={tab.id}
                   type="button"
-                  className={`hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-white focus:outline-none focus:bg-white focus:text-yellow-400 p-4 md:p-5 rounded-xl ${
+                  className={` text-start hover:bg-white dark:hover:bg-gray-400  focus:outline-none focus:bg-white focus:text-yellow-400  p-4 md:p-5 rounded-xl ${
                     activeTab === tab.id
-                      ? 'dark:hs-tab-active:bg-neutral-700 dark:hover:bg-neutral-700 dark:focus:bg-neutral-700 active'
+                      ? '  dark:focus:bg-gray-400 active'
                       : ''
                   }`}
                   id={`tabs-with-card-item-${tab.id}`}
@@ -163,10 +163,10 @@ const Features = () => {
                   <span className="flex gap-x-6">
                     {tab.icon}
                     <span className="grow">
-                      <span className="block text-lg font-semibold hs-tab-active:text-yellow-600  dark:hs-tab-active:text-yellow-400 dark:text-neutral-200">
+                      <span className="block text-lg font-semibold hs-tab-active:text-yellow-600  dark:focus:text-white dark:text-yellow-400">
                         {tab.title}
                       </span>
-                      <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-neutral-200">
+                      <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-white">
                         {tab.description}
                       </span>
                     </span>
