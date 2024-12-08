@@ -95,14 +95,14 @@ export default function Example() {
           
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-            <Link to="/" className="text-sm/6 font-semibold text-gray-900 dark:text-white decoration-transparent">
+            <Link to="/" className="text-sm/6 font-semibold text-gray-900 hover:text-yellow-400 dark:text-white decoration-transparent">
             ACCEUIL
           </Link>
-          <Link to="/about" className="text-sm/6 font-semibold text-gray-900 dark:text-white decoration-transparent">
+          <Link to="/about" className="text-sm/6 font-semibold text-gray-900 hover:text-yellow-400 dark:text-white decoration-transparent">
           A PROPOS NOUS
           </Link>
           <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900 dark:text-white outline-none">
+            <PopoverButton className="flex items-center gap-x-1 text-sm/6 font-semibold hover:text-yellow-400 text-gray-900 dark:text-white outline-none">
             NOS SOLUTION ET PRODUITS
               <ChevronDownIcon aria-hidden="true" className="size-5 flex-none text-gray-400 dark:text-white" />
             </PopoverButton>
@@ -131,11 +131,11 @@ export default function Example() {
               
             </PopoverPanel>
           </Popover>
-          <Link to="/contact" className="text-sm/6 font-semibold text-gray-900 dark:text-white decoration-transparent">
+          <Link to="/contact" className="text-sm/6 font-semibold text-gray-900 hover:text-yellow-400 dark:text-white decoration-transparent">
           CONTACT
           </Link>
           <Popover className="relative">
-            <PopoverButton className="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900 dark:text-white outline-none">
+            <PopoverButton className="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900 hover:text-yellow-400 dark:text-white outline-none">
             SERVICES
               <ChevronDownIcon aria-hidden="true" className="size-5 flex-none text-gray-400 dark:text-white" />
             </PopoverButton>

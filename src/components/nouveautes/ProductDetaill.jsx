@@ -24,132 +24,132 @@ export default function Testpro() {
                 </div>
             </div>
             {/* ABOUT */}
-            <div className='flex m-5 flex-col p-5  lg:w-2/4  bg-gradient-to-t from-yellow-100 to-white'>
+            <div className='flex m-5 flex-col p-5  lg:w-2/4  bg-gradient-to-t from-yellow-100 to-white dark:to-gray-800'>
            
                 <div>
-                    <span className=' text-yellow-400 font-semibold'>{product.category}</span>
-                    <h1 className='text-3xl font-bold'>{product.name}</h1>
+                    <span className=' text-yellow-400 font-semibold '>{product.category}</span>
+                    <h1 className='text-3xl font-bold dark:text-white'>{product.name}</h1>
                 </div>
-                <p className='text-gray-700'>
+                <p className='text-gray-700 dark:text-gray-400'>
                 {product.description}
                 </p>
 
-                <h4 className='text-yellow-400 dark:text-white '>Product information</h4>
+                <h4 className='text-yellow-400 dark:yellow-400 '>Product information</h4>
                 
                 {product.Color &&
                 <div>
-                    <h3 className="text-sm font-medium text-gray-900 dark:text-yellow-400">Color</h3>
+                    <h3 className="text-sm font-medium text-gray-900 dark:text-white">Color</h3>
 
-                    <p className="text-gray-400">{product.Color.join(" , ")}</p>
+                    <p className="text-gray-400 dark:text-gray-800">{product.Color.join(" , ")}</p>
                 </div>
                 }
 
             {product.Processeur &&
                     <div>
-                        <h3 className="text-sm font-medium text-gray-900 dark:text-yellow-400">Processeur</h3>
+                        <h3 className="text-sm font-medium text-gray-900 dark:text-white">Processeur</h3>
 
-                        <p className="text-gray-400 dark:text-gray-400">{product.Processeur.join(" , ")}</p>
+                        <p className="text-gray-400 dark:text-gray-800">{product.Processeur.join(" , ")}</p>
                     </div>
                     
                     }      
 
             {product.Memoire &&
                     <div>
-                        <h3 className="text-sm font-medium text-gray-900 dark:text-yellow-400">Memoire</h3>
+                        <h3 className="text-sm font-medium text-gray-900 dark:text-white">Memoire</h3>
 
-                        <p className="text-gray-400 dark:text-gray-400">{product.Memoire.join(" , ")}</p>
+                        <p className="text-gray-400 dark:text-gray-800">{product.Memoire.join(" , ")}</p>
                     </div>
             }
 
                 {product.Stockage && 
                         <div>
-                            <h3 className="text-sm font-medium text-gray-900 dark:text-yellow-400">Stockage</h3>
+                            <h3 className="text-sm font-medium text-gray-900 dark:text-white">Stockage</h3>
 
-                            <p className="text-gray-400 dark:text-gray-400">{product.Stockage.join(" , ")}</p>
+                            <p className="text-gray-400 dark:text-gray-800">{product.Stockage.join(" , ")}</p>
                         </div>
                 }
 
 
 {product.Dimensions && 
                         <div>
-                            <h3 className="text-sm font-medium text-gray-900 dark:text-yellow-400">Dimensions</h3>
+                            <h3 className="text-sm font-medium text-gray-900 dark:text-white">Dimensions</h3>
 
-                            <p className="text-gray-400 dark:text-gray-400">{product.Dimensions}</p>
+                            <p className="text-gray-400 dark:text-gray-800">{product.Dimensions}</p>
                         </div>
                 }
 
                 {product.PoidsKg && 
                         <div>
-                            <h3 className="text-sm font-medium text-gray-900 dark:text-yellow-400">Poids/Kg</h3>
+                            <h3 className="text-sm font-medium text-gray-900 dark:text-white">Poids/Kg</h3>
 
-                            <p className="text-gray-400 dark:text-gray-400">{product.PoidsKg}</p>
+                            <p className="text-gray-400 dark:text-gray-800">{product.PoidsKg}</p>
                         </div>
                 }
 
                 {product.Scanner && 
                         <div>
-                            <h3 className="text-sm font-medium text-gray-900 dark:text-yellow-400">Scanner</h3>
+                            <h3 className="text-sm font-medium text-gray-900 dark:text-white">Scanner</h3>
 
-                            <p className="text-gray-400 dark:text-gray-400">{product.Scanner.join(' , ')}</p>
+                            <p className="text-gray-400 dark:text-gray-800">{product.Scanner.join(' , ')}</p>
                         </div>
                 }
 
                 {product.Imprimante && 
                         <div>
-                            <h3 className="text-sm font-medium text-gray-900 dark:text-yellow-400">Imprimante</h3>
+                            <h3 className="text-sm font-medium text-gray-900 dark:text-white">Imprimante</h3>
 
-                            <p className="text-gray-400 dark:text-gray-400">{product.Imprimante}</p>
+                            <p className="text-gray-400 dark:text-gray-800">{product.Imprimante}</p>
                         </div>
                 }
 
                 {product.TemperaturesOperationnelles && 
                         <div>
-                            <h3 className="text-sm font-medium text-gray-900 dark:text-yellow-400">TemperaturesOperationnelles</h3>
+                            <h3 className="text-sm font-medium text-gray-900 dark:text-white">TemperaturesOperationnelles</h3>
 
-                            <p className="text-gray-400 dark:text-gray-400">{product.TemperaturesOperationnelles}</p>
+                            <p className="text-gray-400 dark:text-gray-800">{product.TemperaturesOperationnelles}</p>
                         </div>
                 }
 
                 {product.SystèmeAudio && 
                         <div>
-                            <h3 className="text-sm font-medium text-gray-900 dark:text-yellow-400">SystèmeAudio</h3>
+                            <h3 className="text-sm font-medium text-gray-900 dark:text-white">SystèmeAudio</h3>
 
-                            <p className="text-gray-400 dark:text-gray-400">{product.SystèmeAudio.join(' , ')}</p>
+                            <p className="text-gray-400 dark:text-gray-800">{product.SystèmeAudio.join(' , ')}</p>
                         </div>
                 }
 
                     {product.Connectivite && 
                             <div>
-                                <h3 className="text-sm font-medium text-gray-900 dark:text-yellow-400">Connectivite</h3>
+                                <h3 className="text-sm font-medium text-gray-900 dark:text-white">Connectivite</h3>
 
-                                <p className="text-gray-400 dark:text-gray-400">{product.Connectivite}</p>
+                                <p className="text-gray-400 dark:text-gray-800">{product.Connectivite}</p>
                             </div>
                     }
 
 {product.AcrelecPC && 
                     <div>
-                        <h3 className="text-sm font-medium text-gray-900 dark:text-yellow-400">AcrelecPC</h3>
+                        <h3 className="text-sm font-medium text-gray-900 dark:text-white">AcrelecPC</h3>
 
-                        <p className="text-gray-400">{product.AcrelecPC.join(" , ")}</p>
+                        <p className="text-gray-400 dark:text-gray-800">{product.AcrelecPC.join(" , ")}</p>
                     </div>
             }
                     
             {product.touchScreen && 
                     <div>
-                        <h3 className="text-sm font-medium text-gray-900 dark:text-yellow-400">touchScreen</h3>
+                        <h3 className="text-sm font-medium text-gray-900 dark:text-white">touchScreen</h3>
 
-                        <p className="text-gray-400">{product.touchScreen.join(" , ")}</p>
+                        <p className="text-gray-400 dark:text-gray-800">{product.touchScreen.join(" , ")}</p>
                     </div>
             }
 
             {product.Ecran &&
                 <div>
-                    <h3 className="text-sm font-medium text-gray-900 dark:text-yellow-400">Ecran</h3>
+                    <h3 className="text-sm font-medium text-gray-900 dark:text-white">Ecran</h3>
 
                     <ul>
                     
-                    <li className=" dark:text-gray-400"><span className="text-yellow-400  dark:text-yellow-400">Size :</span> {product.Ecran.Taill.join(" , ")}</li>
-                    <li className=" dark:text-gray-400"><span className="text-yellow-400  dark:text-yellow-400">Resolution :</span>  {product.Ecran.Resolution.join(" , ")}</li>
+                    <li className=" dark:text-gray-800"><span className="text-yellow-400  dark:text-white ">Size :</span> {product.Ecran.Taill.join(" , ")}</li>
+                    <li className=" dark:text-gray-800"><span className="text-yellow-400  dark:text-white ">Resolution :</span>  {product.Ecran.Resolution.join(" , ")}</li>
                     </ul>
                 </div>
                     }
