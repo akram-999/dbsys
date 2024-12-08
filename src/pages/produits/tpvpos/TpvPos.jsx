@@ -84,8 +84,8 @@ export default function TpvPos() {
             </div>
             
 
-            <div class="lg:col-span-4 mt-10 lg:mt-0" data-aos="fade-left">
-              <img class="w-full rounded-xl" src="/ph-partners/p1.png" alt="Hero Image" />
+            <div class="lg:col-span-4 mt-10 lg:mt-0 " data-aos="fade-left">
+              <img class="w-96  rounded-xl" src="/ph-partners/p1.png" alt="Hero Image" />
             </div>
             
           </div>

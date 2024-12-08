@@ -1,6 +1,7 @@
 import React from 'react'
 // import Breadcrumb from '../../../components/crump/Breadcrumb'
 import Numers from './number'
+import Kiosk from './Kiosk'
 
 export default function Bornes() {
   return (
@@ -32,6 +33,8 @@ export default function Bornes() {
           </div>
 
           <Numers/>
+
+          <Kiosk/>
     </div>
   )
 }

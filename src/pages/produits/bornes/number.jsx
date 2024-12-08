@@ -48,10 +48,10 @@ function Number4 ({n}) {
 export default function number() {
 
   return (
-    <section class="py-10 bg-gray-100 dark:bg-gray-900 sm:py-16 lg:py-24">
+    <section class="py-10 bg-gradient-to-t from-yellow-100 to-white dark:bg-gray-900 sm:py-16 lg:py-24">
     <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
         <div class="max-w-2xl mx-auto text-center" data-aos="fade-down">
-            <h3 class="text-2xl font-bold leading-tight  sm:text-4xl lg:text-4xl dark:text-white">Chez certains de <span className='underline decoration-yellow-400'>nos clients</span></h3>
+            <h3 class="text-2xl font-bold leading-tight  sm:text-4xl lg:text-4xl dark:text-white">Chez certains de <span className='text-yellow-400'>nos clients</span></h3>
            </div>
 
         <div class="grid grid-cols-1 gap-8 mt-10 text-center lg:mt-24 sm:gap-x-8 md:grid-cols-4">

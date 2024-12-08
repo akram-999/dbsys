@@ -16,6 +16,7 @@ import Signage from './pages/produits/signage/Signage';
 import TpvPos from './pages/produits/tpvpos/TpvPos';
 import Singup from './pages/singup/Singup'
 import SolDetail from './pages/produits/tpvpos/SolDetail';
+import Kioskdetail from './pages/produits/bornes/Kioskdetail';
 
 
 
@@ -39,6 +40,7 @@ function App() {
           <Route path='/pos' element={<TpvPos />} />
           <Route path='/singup' element={<Singup />} />
           <Route path='/solution/tpv-pos/:id' element={<SolDetail />} />
+          <Route path='/solution/bornes/:id' element={<Kioskdetail />} />
 
          
 

@@ -21,6 +21,8 @@
 .single-team-inner .thumb img {
   transform: scale(1.05);
   transition: 0.9s;
+  height: 300px;
+  
 }
 
 .single-team-inner .thumb .team-social-inner {
