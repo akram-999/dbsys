@@ -11,7 +11,7 @@ export default function Partners() {
   return (
     <div>
       <div className="clt ">
-          <h2 className="text-center tit text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-yellow-400 dark:bg-gradient-to-r  dark:from-orange-300 dark:to-yellow-400  " data-aos="zoom-in">Nos Partenaires</h2>
+          <h2 className="text-center text-lg tit text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-yellow-400 dark:bg-gradient-to-r  dark:from-orange-300 dark:to-yellow-400  " data-aos="zoom-in">NOS PARTENAIRES</h2>
           
 
         </div>

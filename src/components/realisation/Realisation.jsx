@@ -32,8 +32,8 @@ export default function Realisation() {
 
   return (
     <div className="max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-      <h2 className="text-center tit my-5 text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-yellow-400 dark:bg-gradient-to-r  dark:from-orange-300 dark:to-yellow-400" data-aos="zoom-in">
-        Nos réalisations
+      <h2 className="text-center text-lg tit my-5 text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-yellow-400 dark:bg-gradient-to-r  dark:from-orange-300 dark:to-yellow-400" data-aos="zoom-in">
+        NOS REALISATIONS
       </h2>
 
       {/* Swiper Carousel */}

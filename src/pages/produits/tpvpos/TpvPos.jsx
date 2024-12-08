@@ -1,6 +1,8 @@
 import React from 'react'
 import Poslist from './Poslist'
 import './pos.css'
+import {Link} from 'react-router-dom'
+import { FaAngleRight } from 'react-icons/fa';
 
 
 export default function TpvPos() {
@@ -96,7 +98,9 @@ export default function TpvPos() {
           <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-3 xl:grid-cols-3">
             {Tc.map((tc)=> (
                     <div className="card hover:shadow-xl" data-aos="zoom-in">
-                        <img className="quotes" src="./sans.png" alt="alternative"/>
+                        
+                        <FaAngleRight className="mt-0 quotes bg-yellow-400 text-white rounded-full h-12 " />
+
                         <div className="card-body">
                             <div className="testimonial-author text-2xl my-2 text-yellow-400">{tc.title}</div>
                             <p className="occupation">{tc.description}</p>
@@ -107,6 +111,12 @@ export default function TpvPos() {
                     
             </div>
             </div>
+
+
+
+
+
+            
     </div>
   )
 }

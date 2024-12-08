@@ -8,7 +8,7 @@ import Contact from './pages/contact/Contact';
 import About from './pages/about/About';
 import Service from './pages/services/service1/Service';
 import Service2 from './pages/services/service2/Service';
-import ProductDetail from './components/nouveautes/ProductDetail'
+import ProductDetail from './components/nouveautes/ProductDetaill'
 import Bornes from './pages/produits/bornes/Bornes';
 import Drive from './pages/produits/drive-thru/Drive';
 import Pagers from './pages/produits/pagers/Pagers';
@@ -16,6 +16,7 @@ import Signage from './pages/produits/signage/Signage';
 import TpvPos from './pages/produits/tpvpos/TpvPos';
 import Singup from './pages/singup/Singup'
 import SolDetail from './pages/produits/tpvpos/SolDetail';
+
 
 
 function App() {
@@ -38,6 +39,10 @@ function App() {
           <Route path='/pos' element={<TpvPos />} />
           <Route path='/singup' element={<Singup />} />
           <Route path='/solution/tpv-pos/:id' element={<SolDetail />} />
+
+         
+
+
 
            
     </Routes>

@@ -12,6 +12,7 @@ export default function About() {
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2" >
             <div className="mb-12 max-w-[540px] lg:mb-0">
+              <h1 className='text-lg text-yellow-400'>À PROPOS DE NOUS</h1>
               <h2 className="mb-5 text-3xl font-bold leading-tight  dark:text-white sm:text-[40px] sm:leading-[1.2]" data-aos="fade-right" data-aos-duration="800">
               Enthousiasme et innovation à la rencontre de l'expérience...
               </h2>
