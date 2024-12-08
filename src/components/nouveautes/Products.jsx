@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {data} from './data'
 import {Link} from 'react-router-dom'
 import './product.css'
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+
 import { FaLink } from "react-icons/fa6";
 
 export default function Products() {
@@ -32,7 +32,7 @@ export default function Products() {
     
       {product.map((product) => (
          
-         <div className='single-team-inner text-center' key={product.id}>
+         <div className='single-team-inner text-center dark:bg-yellow-400' key={product.id}>
          <div className='thumb'>
            <img src={product.img1} alt='img' />
            <ul className='team-social-inner'>
@@ -43,11 +43,11 @@ export default function Products() {
              </li>
            </ul>
          </div>
-         <div className='details'>
-           <h5 className='hover:text-yellow-400'>
+         <div className='details '>
+           <h5 className='hover:text-yellow-400 dark:text-white'>
              {product.name}
            </h5>
-           <p>{product.category}</p>
+           <p className='dark:text-black'>{product.category}</p>
          </div>
        </div>
           
