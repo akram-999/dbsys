@@ -158,7 +158,7 @@ const Features = () => {
                   id={`tabs-with-card-item-${tab.id}`}
                   aria-selected={activeTab === tab.id}
                   onClick={() => handleTabClick(tab.id)}
-                  
+                  data-aos="fade-up"
                 >
                   <span className="flex gap-x-6">
                     {tab.icon}
