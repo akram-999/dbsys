@@ -32,7 +32,7 @@ export default function Products() {
     
       {product.map((product) => (
          
-         <div className='single-team-inner text-center dark:bg-yellow-400' key={product.id}>
+         <div className='single-team-inner text-center dark:bg-yellow-400' key={product.id} data-aos="zoom-in">
          <div className='thumb'>
            <img src={product.img1} alt='img' />
            <ul className='team-social-inner'>
