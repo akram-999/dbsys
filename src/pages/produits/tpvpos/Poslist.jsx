@@ -7,7 +7,7 @@ import { FaLink } from "react-icons/fa6";
 export default function Poslist() {
   return (
     <>
-   <div className="items-center p-1 m-8 grid grid-cols-2 gap-x-3 gap-y-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:gap-x-8 ">
+   <div className="items-center p-1 m-8 grid grid-cols-1 gap-x-3 gap-y-3 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:gap-x-8 ">
     
     {data.map((product) => (
        

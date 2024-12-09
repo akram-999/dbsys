@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
-
+import { GrPrevious } from "react-icons/gr";
+import { GrNext } from "react-icons/gr";
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -69,9 +70,9 @@ export default function Gallery() {
       {/* Modal */}
       {isModalOpen && currentIndex !== null && (
         <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
-          <div className="relative bg-white rounded-lg overflow-hidden shadow-lg p-4 max-w-md">
+          <div className="relative bg-white rounded-lg overflow-hidden shadow-lg  max-w-md">
             <button
-              className="absolute top-2 right-2 text-gray-600 hover:text-red-600"
+              className="absolute md:top-2 top-5 md:right-2 left-80 text-yellow-400"
               onClick={closeModal}
             >
               ✕
@@ -81,24 +82,24 @@ export default function Gallery() {
               alt={images[currentIndex].title}
               className="w-full h-auto rounded-lg"
             />
-            <div className="flex justify-between mt-4">
+            <div className="flex justify-between ">
               <button
-                className="px-4 py-2 bg-gray-300 rounded-lg hover:bg-gray-400"
+                className="px-4 py-2 absolute top-40 md:top-44"
                 onClick={() =>
                   setCurrentIndex(
                     currentIndex === 0 ? images.length - 1 : currentIndex - 1
                   )
                 }
               >
-                Previous
+               <GrPrevious className='text-yellow-400'/>
               </button>
               <button
-                className="px-4 py-2 bg-gray-300 rounded-lg hover:bg-gray-400"
+                className="px-4 py-2 absolute top-40 left-80 md:top-44 md:left-96"
                 onClick={() =>
                   setCurrentIndex((currentIndex + 1) % images.length)
                 }
               >
-                Next
+               <GrNext className='text-yellow-400'/>
               </button>
             </div>
           </div>

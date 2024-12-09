@@ -9,7 +9,7 @@ export default function DriveList() {
       
       <h1 className='text-center' data-aos="fade-down">Nos solutions <span className='text-yellow-400'> DRIVE THRU</span></h1>
 
-      <div className="items-center p-1 m-8 grid grid-cols-2 gap-x-3 gap-y-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:gap-x-8 ">
+      <div className="items-center p-1 m-8 grid grid-cols-1 gap-x-3 gap-y-3 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:gap-x-8 ">
     
       {data.map((product) => (
          
