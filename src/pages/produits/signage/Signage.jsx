@@ -3,6 +3,7 @@ import { BsCalendarDateFill } from "react-icons/bs";
 import { RiSignalWifiOffFill } from "react-icons/ri";
 import { PiVideoFill } from "react-icons/pi";
 import { MdOutlineWeb } from "react-icons/md";
+import Gallery from './Gallery';
 
 export default function Signage() {
   return (
@@ -132,6 +133,9 @@ export default function Signage() {
 
        
     </div>
+
+
+    <Gallery/>
     </div>
   )
 }
