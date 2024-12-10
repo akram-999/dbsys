@@ -8,6 +8,7 @@ import Navbar from './components/navbar/Navbarr';
 
 import { ThemeProvider } from 'next-themes';
 import TestF from './components/footer/TestF';
+import Scroll from './components/scroll/Scroll';
 
 
 
@@ -20,7 +21,7 @@ root.render(
     <Navbar/>
     <App />
     <TestF/>
-    
+    <Scroll/>
   </BrowserRouter>
   </ThemeProvider>
   </React.StrictMode>
