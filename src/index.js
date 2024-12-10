@@ -5,8 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import Navbar from './components/navbar/Navbarr';
-import Footer from './components/footer/Footer';
+
 import { ThemeProvider } from 'next-themes';
+import TestF from './components/footer/TestF';
 
 
 
@@ -18,7 +19,8 @@ root.render(
   <BrowserRouter>
     <Navbar/>
     <App />
-    <Footer/>
+    <TestF/>
+    
   </BrowserRouter>
   </ThemeProvider>
   </React.StrictMode>

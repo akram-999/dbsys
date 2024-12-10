@@ -47,7 +47,7 @@ export default function Signage() {
 
         <div class="mt-8 xl:mt-12 lg:flex lg:items-center">
             <div class="grid w-full grid-cols-1 gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-2">
-                <div class="space-y-3  " data-aos="fade-up">
+                <div class="space-y-3 bg-yellow-50 p-3 rounded-lg " data-aos="fade-up">
                     <span class="inline-block p-3 text-yellow-400 bg-yellow-100 rounded-xl dark:text-white dark:bg-yellow-400">
                     <MdOutlineWeb className='h-6 w-6'/>
                     </span>
@@ -59,7 +59,7 @@ export default function Signage() {
                     </p>
                 </div>
 
-                <div class="space-y-3" data-aos="fade-up">
+                <div class="space-y-3 bg-yellow-50 p-3 rounded-lg" data-aos="fade-up">
                     <span class="inline-block p-3 text-yellow-400 bg-yellow-100 rounded-xl dark:text-white dark:bg-yellow-400">
                     <PiVideoFill className='h-6 w-6'/>
                     </span>
@@ -71,7 +71,7 @@ export default function Signage() {
                     </p>
                 </div>
 
-                <div class="space-y-3" data-aos="fade-up">
+                <div class="space-y-3 bg-yellow-50 p-3 rounded-lg" data-aos="fade-up">
                     <span class="inline-block p-3 text-yellow-400 bg-yellow-100 rounded-xl dark:text-white dark:bg-yellow-400">
                     <RiSignalWifiOffFill className='h-6 w-6'/>
                     </span>
@@ -83,7 +83,7 @@ export default function Signage() {
                     </p>
                 </div>
 
-                <div class="space-y-3" data-aos="fade-up">
+                <div class="space-y-3 bg-yellow-50 p-3 rounded-lg" data-aos="fade-up">
                     <span class="inline-block p-3 text-yellow-400 bg-yellow-100 rounded-xl dark:text-white dark:bg-yellow-400">
                     <BsCalendarDateFill className='h-6 w-6'/>
                     </span>

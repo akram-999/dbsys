@@ -15,6 +15,8 @@ const Features = () => {
             <h1 className="text-lg text-center  text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-yellow-400 dark:bg-gradient-to-r  dark:from-orange-300 dark:to-yellow-400   mb-5  " data-aos="zoom-in" >
             NOS SOLUTIONS
             </h1>
+
+            
            
           
         <div className="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center  ">
